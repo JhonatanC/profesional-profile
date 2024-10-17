@@ -1,0 +1,28 @@
+{
+  "es": {
+    "titleTap": "Perfil profesional",
+    "position": "Desarrollador Frontend Senior",
+    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en HTML5 CSS3 y JavaScript, con un profundo conocimiento de frameworks modernos como React, Angular y Vue. Apasionado por la creación de código limpio y mantenible, siguiendo los principios SOLID y las mejores prácticas de Clean Code. Dominio de TypeScript para una mayor tipado y escalabilidad.</p><p> Experiencia en el desarrollo backend con Node.js y Express, así como en la gestión de bases de datos relacionales (MySQL, PostgreSQL). Conocimientos sólidos en Docker para la conteneización de aplicaciones. </p><p> Busco nuevos desafíos en proyectos que requieran un alto nivel de personalización y rendimiento.</p>",
+    "skills": [
+      {
+        "icon": "",
+        "language": "Inglés B1+",
+        "level": 3
+      }
+    ],
+    "workExp": [
+      {
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "position": "",
+        "descExp": "",
+        "toolsApply": []
+      }
+    ]
+  },
+  "en": {
+    "titleTap": "Persona profile",
+    "position": "Senior Frontend Developer"
+  }
+}
