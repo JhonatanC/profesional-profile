@@ -5,35 +5,39 @@ const aboutMe = document.querySelector("#about-me");
 const LangOpt = document.querySelector("#language");
 const darkMode = document.querySelector("#dark");
 const position = document.querySelector("#setPosition");
+const desc = document.querySelector("#setDescription");
 const desProfile = document.querySelector("#about-me-profesional");
+const ulSkills = document.querySelector("#ulSkills");
 const body = document.querySelector("body");
+const host = window.location.host;
+let skillList = [];
+let result = {};
 
 // Cargar información.
 const loadInfo = async () => {
-  const response = await fetch("http://127.0.0.1:5500/data/info.json");
-  const result = await response.json();
-  // desProfile.textContent = result[lang].description;
-  console.log(result[lang].description);
-
-  desProfile.innerHTML = result[lang].description;
-
-  return result;
+  // Validar el http después de subirlo al servidor de Github.
+  const response = await fetch(`http://${host}/data/info.json`);
+  const data = await response.json();
+  result = data;
+  getJobInfo(lang);
 };
+loadInfo();
 
 // Cambiar idioma.
 const changeLang = (lang) => {
   const getLangValue = lang.target.value;
-  getJobPosition(getLangValue);
+  ulSkills.innerHTML = "";
+  getJobInfo(getLangValue);
 };
 LangOpt.addEventListener("change", changeLang);
 
-// Cargo profesional.
-const getJobPosition = async (lang = "es") => {
-  const titlePosition = await loadInfo();
-  position.textContent = titlePosition[lang].position;
+// Información profesional.
+const getJobInfo = async (lang = "es") => {
+  document.title = result[lang].titleTap;
+  position.textContent = result[lang].position;
+  desc.innerHTML = result[lang].description;
+  getSkills(result[lang].skills);
 };
-
-const getResume = () => {};
 
 // Cambiar tema - claro / oscuro.
 const setTheme = () => {
@@ -47,10 +51,15 @@ const setTheme = () => {
 };
 darkMode.addEventListener("click", setTheme);
 
-// Título por defecto en el tab del site
-const setDefaultTitleTab = async () => {
-  const titleTab = await loadInfo();
-  titleTab[lang].titleTap;
-  document.title = titleTab[lang].titleTap;
+const getSkills = (skills) => {
+  skills.map((skill) => {
+    const item = document.createElement("li");
+    item.textContent = skill.language;
+    ulSkills.append(item);
+
+    const img = document.createElement("img");
+    img.src = skill.icon;
+    img.className = "icon-logo";
+    item.prepend(img);
+  });
 };
-setDefaultTitleTab();
