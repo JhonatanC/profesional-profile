@@ -53,6 +53,12 @@ p {
   right: 2rem;
 }
 
+#change-settings ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 #setPosition {
   margin-bottom: 4rem;
 }
@@ -121,6 +127,12 @@ p {
 
 #skills li:last-child {
   margin-right: 0rem;
+}
+
+#language {
+  border: 1px solid #aeaeae;
+  border-radius: 7px;
+  padding: 0.3rem 1.5rem;
 }
 
 .dark-mode {

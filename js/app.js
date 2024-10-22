@@ -17,10 +17,17 @@ const protocol = window.location.protocol;
 let skillList = [];
 let result = {};
 
+const getHost = window.location.host;
+const pathName = window.location.pathname;
+
+const url =
+  pathName == "/"
+    ? `${protocol}//${host}/data/info.json`
+    : `${protocol}//${host}/${pathName}/data/info.json`;
+
 // Cargar información.
 const loadInfo = async () => {
-  // Validar el http después de subirlo al servidor de Github.
-  const response = await fetch(`${protocol}//${host}/data/info.json`);
+  const response = await fetch(`${url}`);
   const data = await response.json();
   result = data;
   getJobInfo(lang);
