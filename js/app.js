@@ -3,11 +3,14 @@ let lang = navigator.language.substring(0, 2);
 const wrapper = document.querySelector("#wrapper");
 const aboutMe = document.querySelector("#about-me");
 const LangOpt = document.querySelector("#language");
-const darkMode = document.querySelector("#dark");
+const theme = document.querySelector("#theme");
+const dark = document.querySelector(".dark");
+const light = document.querySelector(".light");
 const position = document.querySelector("#setPosition");
 const desc = document.querySelector("#setDescription");
 const desProfile = document.querySelector("#about-me-profesional");
 const ulSkills = document.querySelector("#ulSkills");
+const titleSkill = document.querySelector("#titleSkill");
 const body = document.querySelector("body");
 const host = window.location.host;
 const protocol = window.location.protocol;
@@ -37,6 +40,7 @@ const getJobInfo = async (lang = "es") => {
   document.title = result[lang].titleTap;
   position.textContent = result[lang].position;
   desc.innerHTML = result[lang].description;
+  titleSkill.textContent = result[lang].titleSkill;
   getSkills(result[lang].skills);
 };
 
@@ -45,12 +49,16 @@ const setTheme = () => {
   if (!document.body.classList.contains("dark-mode")) {
     body.classList.add("dark-mode");
     wrapper.classList.add("wrapper-dark");
+    light.style.display = "block";
+    dark.style.display = "none";
   } else {
     body.classList.remove("dark-mode");
     wrapper.classList.remove("wrapper-dark");
+    light.style.display = "none";
+    dark.style.display = "block";
   }
 };
-darkMode.addEventListener("click", setTheme);
+theme.addEventListener("click", setTheme);
 
 const getSkills = (skills) => {
   skills.map((skill) => {

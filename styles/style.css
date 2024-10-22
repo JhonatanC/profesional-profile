@@ -147,3 +147,14 @@ p {
     display: block;
   }
 }
+
+#theme img {
+  cursor: pointer;
+  height: 18px;
+  margin-right: 1rem;
+  width: 18px;
+}
+
+#theme .active {
+  display: none;
+}

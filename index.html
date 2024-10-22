@@ -14,7 +14,14 @@
     <div id="wrapper">
       <div id="change-settings">
         <ul>
-          <li id="dark">Dark mode</li>
+          <li id="theme">
+            <img class="dark" src="./assets/moon.svg" alt="Icono dark mode" />
+            <img
+              class="light active"
+              src="./assets/sun.svg"
+              alt="Icono light mode"
+            />
+          </li>
           <li>
             <select name="language" id="language">
               <option value="es">Español</option>
@@ -31,7 +38,7 @@
           <p id="setDescription"></p>
         </div>
         <div id="skills">
-          <h2>Habilidades</h2>
+          <h2 id="titleSkill"></h2>
           <hr />
           <ul id="ulSkills"></ul>
         </div>
