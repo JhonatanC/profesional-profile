@@ -10,13 +10,14 @@ const desProfile = document.querySelector("#about-me-profesional");
 const ulSkills = document.querySelector("#ulSkills");
 const body = document.querySelector("body");
 const host = window.location.host;
+const protocol = window.location.protocol;
 let skillList = [];
 let result = {};
 
 // Cargar información.
 const loadInfo = async () => {
   // Validar el http después de subirlo al servidor de Github.
-  const response = await fetch(`http://${host}/data/info.json`);
+  const response = await fetch(`${protocol}//${host}/data/info.json`);
   const data = await response.json();
   result = data;
   getJobInfo(lang);
