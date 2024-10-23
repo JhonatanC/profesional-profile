@@ -82,14 +82,109 @@
         "language": "Docker"
       }
     ],
+    "titleExp": "Experiencia laboral",
     "workExp": [
       {
-        "company": "",
-        "start_date": "",
+        "company": "Servinformción",
+        "start_date": "Septiembre 2021",
         "end_date": "",
-        "position": "",
-        "descExp": "",
-        "toolsApply": []
+        "position": "Ingeniero de desarrollo",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "React",
+          "Angular",
+          "Vuejs"
+        ]
+      },
+      {
+        "company": "Zuntek",
+        "start_date": "Abril 2021",
+        "end_date": "Agosto 2021",
+        "position": "Analista de desarrollo de software",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular"
+        ]
+      },
+      {
+        "company": "El Cubo Creativo",
+        "start_date": "Diciembre 2020",
+        "end_date": "Noviembre 2021",
+        "position": "Desarrollador de aplicaciones",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Redlat Agencia Digital",
+        "start_date": "Marzo 2020",
+        "end_date": "Junio 2020",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Vectorial",
+        "start_date": "Noviembre 2019",
+        "end_date": "Marzo 2020",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Aladdin Casino",
+        "start_date": "Septiembre 2014",
+        "end_date": "Noviembre 2019",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
       }
     ]
   },
@@ -176,14 +271,109 @@
         "language": "Docker"
       }
     ],
+    "titleExp": "Work Experience",
     "workExp": [
       {
-        "company": "",
-        "start_date": "",
+        "company": "Servinformción",
+        "start_date": "Septiembre 2021",
         "end_date": "",
-        "position": "",
-        "descExp": "",
-        "toolsApply": []
+        "position": "Ingeniero de desarrollo",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "React",
+          "Angular",
+          "Vuejs"
+        ]
+      },
+      {
+        "company": "Zuntek",
+        "start_date": "Abril 2021",
+        "end_date": "Agosto 2021",
+        "position": "Analista de desarrollo de software",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular"
+        ]
+      },
+      {
+        "company": "El Cubo Creativo",
+        "start_date": "Diciembre 2020",
+        "end_date": "Noviembre 2021",
+        "position": "Desarrollador de aplicaciones",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Redlat Agencia Digital",
+        "start_date": "Marzo 2020",
+        "end_date": "Junio 2020",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Vectorial",
+        "start_date": "Noviembre 2019",
+        "end_date": "Marzo 2020",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
+      },
+      {
+        "company": "Aladdin Casino",
+        "start_date": "Septiembre 2014",
+        "end_date": "Noviembre 2019",
+        "position": "Desarrollador web",
+        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "toolsApply": [
+          "Html",
+          "Css",
+          "JavaScript",
+          "Git",
+          "Github",
+          "TypeScript",
+          "Angular",
+          "Ionic"
+        ]
       }
     ]
   }

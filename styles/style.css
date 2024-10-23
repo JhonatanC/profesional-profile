@@ -68,8 +68,8 @@ p {
 }
 
 #about-me-personal,
-#about-me-profesional,
-#certificacion-and-courses {
+#skills,
+#work-experience {
   position: relative;
   margin: 2rem 0rem;
 }
@@ -163,6 +163,37 @@ p {
   display: none;
 }
 
+#boxExp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#boxExp h4 {
+  text-transform: uppercase;
+}
+
+#boxInfo {
+  padding: 1rem;
+  width: 50%;
+}
+
+#titleExp {
+  margin: 2rem 0rem;
+}
+
+.divideHr {
+  border: 1px solid #f4f4f4;
+  margin: 0.5rem 0rem 1.2rem;
+}
+
+.positionJob {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
 @media screen and (max-width: 768px) {
   #about-me-personal .avatar {
     position: relative;
@@ -170,6 +201,10 @@ p {
     display: block;
   }
   #skills li {
+    font-size: 0.6rem;
     padding: 0.3rem 1rem;
+  }
+  #boxInfo {
+    width: 100%;
   }
 }
