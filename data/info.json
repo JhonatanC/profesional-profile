@@ -89,7 +89,7 @@
         "start_date": "Septiembre 2021",
         "end_date": "",
         "position": "Ingeniero de desarrollo",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "Como desarrollador Front-end en Servinformación, he sido responsable de construir componentes reutilizables y escalables para nuestras aplicaciones web, utilizando tecnologías como JavaScript, React, Angular y Vue. Mis proyectos han contribuido a mejorar la experiencia del usuario y optimizar el rendimiento de nuestras plataformas, alineadas con las soluciones de Google Cloud Platform y Firebase.",
         "toolsApply": [
           "Html",
           "Css",
@@ -107,7 +107,7 @@
         "start_date": "Abril 2021",
         "end_date": "Agosto 2021",
         "position": "Analista de desarrollo de software",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "Adquirí experiencia en el diseño e implementación de sistemas de autenticación y autorización robustos. Participé en el desarrollo de una plataforma que permitía crear módulos personalizados, como el módulo de empresas, basados en la asignación de roles y permisos específicos a los usuarios.",
         "toolsApply": [
           "Html",
           "Css",
@@ -115,7 +115,8 @@
           "Git",
           "Github",
           "TypeScript",
-          "Angular"
+          "Angular",
+          "Php (Laravel)"
         ]
       },
       {
@@ -123,7 +124,7 @@
         "start_date": "Diciembre 2020",
         "end_date": "Noviembre 2021",
         "position": "Desarrollador de aplicaciones",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "Extendí las funcionalidades de un proyecto existente, inicialmente limitado, para adaptarlo a las necesidades de una plataforma a gran escala. Desarrollé módulos como categorías, productos y usuarios, implementando un sistema de roles y permisos que permitió una gestión granular de los accesos y una mayor flexibilidad en la administración de la plataforma.",
         "toolsApply": [
           "Html",
           "Css",
@@ -140,7 +141,7 @@
         "start_date": "Marzo 2020",
         "end_date": "Junio 2020",
         "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "Para ofrecer una solución personalizada y escalable, diseñé y desarrollé plugins específicos para el tema de WordPress de nuestra plataforma. Estos plugins, creados desde cero, permitieron una integración profunda con la base de datos, utilizando PHP y MySQL para almacenar y gestionar la nueva información. La compatibilidad con la versión de PHP existente fue un factor clave en el desarrollo de estos plugins.",
         "toolsApply": [
           "Html",
           "Css",
@@ -275,10 +276,10 @@
     "workExp": [
       {
         "company": "Servinformción",
-        "start_date": "Septiembre 2021",
+        "start_date": "September 2021",
         "end_date": "",
-        "position": "Ingeniero de desarrollo",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "position": "Development engineer",
+        "descExp": "As a Front-end Developer at Servinformación, I have been responsible for building reusable and scalable components for our web applications, utilizing technologies such as JavaScript, React, Angular, and Vue. My projects have contributed to enhancing user experience and optimizing the performance of our platforms, aligned with Google Cloud Platform and Firebase solutions.",
         "toolsApply": [
           "Html",
           "Css",
@@ -293,10 +294,10 @@
       },
       {
         "company": "Zuntek",
-        "start_date": "Abril 2021",
-        "end_date": "Agosto 2021",
-        "position": "Analista de desarrollo de software",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "start_date": "April 2021",
+        "end_date": "August 2021",
+        "position": "Software development analyst",
+        "descExp": "I specialized in designing and implementing secure authentication and authorization systems. I was involved in building a platform that enabled the creation of tailored modules, such as a company module, by assigning specific roles and permissions to different user groups.",
         "toolsApply": [
           "Html",
           "Css",
@@ -309,10 +310,10 @@
       },
       {
         "company": "El Cubo Creativo",
-        "start_date": "Diciembre 2020",
-        "end_date": "Noviembre 2021",
-        "position": "Desarrollador de aplicaciones",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "start_date": "December 2020",
+        "end_date": "November 2021",
+        "position": "App developer",
+        "descExp": "I expanded the functionalities of an existing, limited project to accommodate the needs of a large-scale platform. I developed modules such as categories, products, and users, implementing a role-based access control system that enabled granular access management and greater flexibility in platform administration.",
         "toolsApply": [
           "Html",
           "Css",
@@ -321,15 +322,16 @@
           "Github",
           "TypeScript",
           "Angular",
-          "Ionic"
+          "Ionic",
+          "Php (Laravel)"
         ]
       },
       {
         "company": "Redlat Agencia Digital",
-        "start_date": "Marzo 2020",
-        "end_date": "Junio 2020",
+        "start_date": "March 2020",
+        "end_date": "June 2020",
         "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "To provide a customized and scalable solution, I designed and developed specific plugins for our platform's WordPress theme. These plugins, created from scratch, allowed for deep integration with the database, utilizing PHP and MySQL to store and manage the new information. Compatibility with the existing PHP version was a key factor in the development of these plugins.",
         "toolsApply": [
           "Html",
           "Css",
@@ -343,8 +345,8 @@
       },
       {
         "company": "Vectorial",
-        "start_date": "Noviembre 2019",
-        "end_date": "Marzo 2020",
+        "start_date": "November 2019",
+        "end_date": "March 2020",
         "position": "Desarrollador web",
         "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
         "toolsApply": [
@@ -360,8 +362,8 @@
       },
       {
         "company": "Aladdin Casino",
-        "start_date": "Septiembre 2014",
-        "end_date": "Noviembre 2019",
+        "start_date": "September 2014",
+        "end_date": "November 2019",
         "position": "Desarrollador web",
         "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
         "toolsApply": [

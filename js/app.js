@@ -43,6 +43,7 @@ const changeLang = (lang) => {
   ulSkills.innerHTML = "";
   boxExp.innerHTML = "";
   getJobInfo(getLangValue);
+  return lang;
 };
 LangOpt.addEventListener("change", changeLang);
 
@@ -54,7 +55,8 @@ const getJobInfo = async (lang = "es") => {
   titleSkill.textContent = result[lang].titleSkill;
   titleExp.textContent = result[lang].titleExp;
   getSkills(result[lang].skills);
-  getExperience(result[lang].workExp);
+  getExperience(lang, result[lang].workExp);
+  // getTools(result[lang].workExp.toolsApply);
 };
 
 // Cambiar tema - claro / oscuro.
@@ -73,51 +75,88 @@ const setTheme = () => {
 };
 theme.addEventListener("click", setTheme);
 
+const createDynamicElement = (setElement) => {
+  const element = document.createElement(`${setElement.ele}`);
+  `${!setElement.id ? null : (element.id = setElement.id)}`;
+  `${!setElement.class ? null : (element.className = setElement.class)}`;
+  `${!setElement.text ? null : (element.textContent = setElement.text)}`;
+  `${!setElement.source ? null : (element.src = setElement.source)}`;
+
+  if (!setElement.position) {
+    setElement.render.append(element);
+  } else {
+    setElement.render.prepend(element);
+  }
+
+  return element;
+};
+
 const getSkills = (skills) => {
   skills.map((skill) => {
-    const item = document.createElement("li");
-    item.textContent = skill.language;
-    ulSkills.append(item);
+    const liSkill = createDynamicElement({
+      ele: "li",
+      text: skill.language,
+      render: ulSkills,
+      position: "append",
+    });
 
-    const img = document.createElement("img");
-    img.src = skill.icon;
-    img.className = "icon-logo";
-    item.prepend(img);
+    createDynamicElement({
+      ele: "img",
+      source: skill.icon,
+      class: "icon-logo",
+      render: liSkill,
+      position: "prepend",
+    });
   });
 };
 
-const getExperience = (experiences) => {
+const getTools = (tools) => {
+  tools.map((tool) => {
+    const item = document.createElement("li");
+    item.textContent = tool;
+    ulSkills.append(item);
+  });
+};
+
+const getExperience = (lang, experiences) => {
   experiences.map((exp) => {
-    // console.log(exp);
-    const boxInfo = document.createElement("div");
-    boxInfo.id = "boxInfo";
+    // Caja contenedora principal de información.
+    const boxInfo = createDynamicElement({
+      ele: "div",
+      id: "boxInfo",
+      render: boxExp,
+    });
 
-    const hTitle = document.createElement("h4");
-    hTitle.textContent = exp.company;
+    // Nombre de la empresa.
+    createDynamicElement({ ele: "h4", text: exp.company, render: boxInfo });
 
-    const positionJob = document.createElement("p");
-    positionJob.className = "positionJob";
-    positionJob.textContent = `Cargo: ${exp.position}`;
+    // Cargo en la empresa.
+    createDynamicElement({
+      ele: "p",
+      text:
+        lang == "es" ? `Cargo: ${exp.position}` : `Position: ${exp.position}`,
+      class: "positionJob",
+      render: boxInfo,
+    });
 
-    const timeJobBox = document.createElement("div");
-    timeJobBox.id = "timeJob";
+    // Contenedor tiempo en la empresa.
+    createDynamicElement({ ele: "div", id: "timeJob", render: boxInfo });
 
-    const divideHr = document.createElement("hr");
-    divideHr.className = "divideHr";
+    // Separador
+    createDynamicElement({ ele: "hr", class: "divideHr", render: boxInfo });
 
-    const timeJobDate = document.createElement("small");
-    timeJobDate.textContent = `${exp.start_date} - ${
-      !exp.end_date ? "Actualmente" : exp.end_date
-    }`;
+    // Rango de tiempo en la empresa.
+    createDynamicElement({
+      ele: "small",
+      text: `${exp.start_date} - ${
+        !exp.end_date ? "Actualmente" : exp.end_date
+      }`,
+      render: boxInfo,
+    });
 
-    const descJob = document.createElement("p");
-    descJob.textContent = exp.descExp;
+    createDynamicElement({ ele: "p", text: exp.descExp, render: boxInfo });
 
-    boxExp.append(boxInfo);
-    boxInfo.append(hTitle);
-    boxInfo.append(positionJob);
-    boxInfo.append(timeJobDate);
-    boxInfo.append(divideHr);
-    boxInfo.append(descJob);
+    // toolsApply
+    // const tools = document.createElement("small");
   });
 };
