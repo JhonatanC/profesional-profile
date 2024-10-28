@@ -1,27 +1,27 @@
-let printInfo = {};
 let lang = navigator.language.substring(0, 2);
+let printInfo = {};
+let result = {};
+let skillList = [];
+let experienceList = [];
+const protocol = window.location.protocol;
+const host = window.location.host;
+const pathName = window.location.pathname;
+
+const body = document.querySelector("body");
+const dark = document.querySelector(".dark");
+const light = document.querySelector(".light");
+const ulExp = document.querySelector("#ulExp");
+const theme = document.querySelector("#theme");
+const boxExp = document.querySelector("#boxExp");
 const wrapper = document.querySelector("#wrapper");
 const aboutMe = document.querySelector("#about-me");
 const LangOpt = document.querySelector("#language");
-const theme = document.querySelector("#theme");
-const dark = document.querySelector(".dark");
-const light = document.querySelector(".light");
-const position = document.querySelector("#setPosition");
-const desc = document.querySelector("#setDescription");
-const desProfile = document.querySelector("#about-me-profesional");
-const titleSkill = document.querySelector("#titleSkill");
 const titleExp = document.querySelector("#titleExp");
 const ulSkills = document.querySelector("#ulSkills");
-const ulExp = document.querySelector("#ulExp");
-const boxExp = document.querySelector("#boxExp");
-const body = document.querySelector("body");
-const protocol = window.location.protocol;
-let skillList = [];
-let experienceList = [];
-let result = {};
-
-const host = window.location.host;
-const pathName = window.location.pathname;
+const desc = document.querySelector("#setDescription");
+const position = document.querySelector("#setPosition");
+const titleSkill = document.querySelector("#titleSkill");
+const desProfile = document.querySelector("#about-me-profesional");
 
 const url =
   pathName == "/"
@@ -56,7 +56,9 @@ const getJobInfo = async (lang = "es") => {
   titleExp.textContent = result[lang].titleExp;
   getSkills(result[lang].skills);
   getExperience(lang, result[lang].workExp);
-  // getTools(result[lang].workExp.toolsApply);
+  result[lang].workExp.map((work) => {
+    getTools(work.toolsApply);
+  });
 };
 
 // Cambiar tema - claro / oscuro.
@@ -83,16 +85,20 @@ const createDynamicElement = (setElement) => {
   `${!setElement.source ? null : (element.src = setElement.source)}`;
 
   if (!setElement.position) {
-    setElement.render.append(element);
+    setElement?.render.append(element);
   } else {
-    setElement.render.prepend(element);
+    setElement?.render?.prepend(element);
   }
 
   return element;
 };
 
 const getSkills = (skills) => {
+  ulSkills.innerHTML = "";
+  boxExp.innerHTML = "";
+
   skills.map((skill) => {
+    // console.log(skill);
     const liSkill = createDynamicElement({
       ele: "li",
       text: skill.language,
@@ -105,16 +111,19 @@ const getSkills = (skills) => {
       source: skill.icon,
       class: "icon-logo",
       render: liSkill,
-      position: "prepend",
+      position: "preppend",
     });
   });
 };
 
 const getTools = (tools) => {
   tools.map((tool) => {
-    const item = document.createElement("li");
-    item.textContent = tool;
-    ulSkills.append(item);
+    createDynamicElement({
+      ele: "li",
+      text: tool,
+      class: "tools-items",
+      render: boxInfo,
+    });
   });
 };
 
@@ -142,9 +151,6 @@ const getExperience = (lang, experiences) => {
     // Contenedor tiempo en la empresa.
     createDynamicElement({ ele: "div", id: "timeJob", render: boxInfo });
 
-    // Separador
-    createDynamicElement({ ele: "hr", class: "divideHr", render: boxInfo });
-
     // Rango de tiempo en la empresa.
     createDynamicElement({
       ele: "small",
@@ -154,9 +160,40 @@ const getExperience = (lang, experiences) => {
       render: boxInfo,
     });
 
+    // Separador
+    createDynamicElement({ ele: "hr", class: "divideHr", render: boxInfo });
+
+    // Descripción actividades en la empresa.
     createDynamicElement({ ele: "p", text: exp.descExp, render: boxInfo });
 
+    // Contenedor - tecnologías utlizadas.
+    const ulTools = createDynamicElement({
+      ele: "ul",
+      id: "listTools",
+      render: boxInfo,
+    });
+
     // toolsApply
-    // const tools = document.createElement("small");
+    exp.toolsApply.map((tool) => {
+      createDynamicElement({
+        ele: "li",
+        text: tool,
+        class: "tools-items",
+        render: ulTools,
+        position: "append",
+      });
+    });
+
+    // Texto tecnologías
+    createDynamicElement({
+      ele: "span",
+      text:
+        lang == "es"
+          ? `Tecnologías implementadas: `
+          : `Technologies implemented: `,
+      render: ulTools,
+      class: "pre-text-tec",
+      position: "prepend",
+    });
   });
 };

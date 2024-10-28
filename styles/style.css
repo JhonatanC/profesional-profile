@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
 * {
   border: 0;
   box-sizing: border-box;
@@ -136,13 +141,13 @@ p {
 }
 
 .dark-mode {
-  background: #2c3e50;
+  background: #071407;
   color: white;
   /*transition: all 0.3s ease-in-out;*/
 }
 
 .wrapper-dark {
-  background: #34495e !important;
+  background: rgb(35, 43, 51) !important;
   color: white !important;
   /*transition: all 0.3s ease-in-out;*/
 }
@@ -194,6 +199,35 @@ p {
   margin-bottom: 0.4rem;
 }
 
+#listTools {
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools-items {
+  color: #686868;
+}
+
+.dark-mode .tools-items {
+  color: yellowgreen;
+}
+
+.tools-items:after {
+  content: ",  ";
+  margin-right: 0.5rem;
+}
+
+.tools-items:last-child:after {
+  content: ".";
+}
+
+.pre-text-tec {
+  font-weight: 600;
+  margin-bottom: 0rem;
+  margin-right: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
   #about-me-personal .avatar {
     position: relative;
@@ -205,6 +239,7 @@ p {
     padding: 0.3rem 1rem;
   }
   #boxInfo {
+    margin-bottom: 1.5rem;
     width: 100%;
   }
 }

@@ -55,7 +55,7 @@
       },
       {
         "icon": "./assets/jest-logo.svg",
-        "language": "Testing (Jest)"
+        "language": "Pruebas (Jest)"
       },
       {
         "icon": "./assets/logo-socket-io.svg",
@@ -158,7 +158,7 @@
         "start_date": "Noviembre 2019",
         "end_date": "Marzo 2020",
         "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "En Vectorial, contribuí a la creación de experiencias de usuario excepcionales a través del desarrollo de plataformas web en WordPress. Aprovechando las capacidades de custom fields, taxonomías y tags, diseñé soluciones que permitieron a los usuarios interactuar de manera más profunda con el contenido y descubrir información relevante de forma sencilla.",
         "toolsApply": [
           "Html",
           "Css",
@@ -175,7 +175,7 @@
         "start_date": "Septiembre 2014",
         "end_date": "Noviembre 2019",
         "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "En Casinos Aladdin, construí una solución web completa y escalable, desde la estructura hasta la interfaz de usuario. Utilizando tecnologías como HTML5, CSS3, JavaScript, PHP y MySQL, desarrollé un tema de WordPress personalizado que permitiera una gestión flexible del contenido y una experiencia de usuario intuitiva.",
         "toolsApply": [
           "Html",
           "Css",
@@ -197,7 +197,7 @@
     "skills": [
       {
         "icon": "./assets/usa-logo.svg",
-        "language": "Inglés B1+"
+        "language": "English B1+"
       },
       {
         "icon": "./assets/html-logo.svg",
@@ -330,7 +330,7 @@
         "company": "Redlat Agencia Digital",
         "start_date": "March 2020",
         "end_date": "June 2020",
-        "position": "Desarrollador web",
+        "position": "Web developer",
         "descExp": "To provide a customized and scalable solution, I designed and developed specific plugins for our platform's WordPress theme. These plugins, created from scratch, allowed for deep integration with the database, utilizing PHP and MySQL to store and manage the new information. Compatibility with the existing PHP version was a key factor in the development of these plugins.",
         "toolsApply": [
           "Html",
@@ -347,8 +347,8 @@
         "company": "Vectorial",
         "start_date": "November 2019",
         "end_date": "March 2020",
-        "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "position": "Web developer",
+        "descExp": "I developed WordPress platforms at Vectorial, focusing on creating exceptional user experiences. I used custom fields, taxonomies, and tags to enable deeper content interactions and easier discovery.",
         "toolsApply": [
           "Html",
           "Css",
@@ -365,7 +365,7 @@
         "start_date": "September 2014",
         "end_date": "November 2019",
         "position": "Desarrollador web",
-        "descExp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim arcu eget justo viverra, eget pretium enim tincidunt. Sed condimentum tempor tellus, nec vulputate orci eleifend consectetur. Mauris ac blandit erat. Aliquam libero eros, aliquam sed odio a, molestie luctus odio. Phasellus vel fringilla leo, sed pharetra nibh.",
+        "descExp": "At Casinos Aladdin, I built a comprehensive and scalable web solution, from the structure to the user interface. Utilizing technologies such as HTML5, CSS3, JavaScript, PHP, and MySQL, I developed a custom WordPress theme that enabled flexible content management and an intuitive user experience.",
         "toolsApply": [
           "Html",
           "Css",
