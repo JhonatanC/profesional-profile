@@ -19,7 +19,6 @@ html {
 body {
   background: #f2f2f2;
   color: #191919;
-  /*transition: all 0.3s ease-in-out;*/
 }
 
 img {
@@ -43,7 +42,6 @@ p {
   max-width: 900px;
   padding: 1.6rem;
   position: relative;
-  /*transition: all 0.3s ease-in-out;*/
   width: 90%;
 }
 
@@ -80,7 +78,7 @@ p {
 }
 
 #about-me-personal {
-  margin: 4rem 0rem;
+  margin: 5rem 0rem 3rem;
 }
 
 #about-me-personal .avatar {
@@ -135,21 +133,34 @@ p {
 }
 
 #language {
+  font-size: 0.9rem;
   border: 1px solid #aeaeae;
   border-radius: 7px;
-  padding: 0.3rem 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.file-down-black,
+.file-down-white {
+  height: 20px;
+  margin-right: 0rem;
+  width: 20px;
+}
+
+.file-down-black {
+  display: block;
+}
+.file-down-white {
+  display: none;
 }
 
 .dark-mode {
   background: #071407;
   color: white;
-  /*transition: all 0.3s ease-in-out;*/
 }
 
 .wrapper-dark {
   background: rgb(35, 43, 51) !important;
   color: white !important;
-  /*transition: all 0.3s ease-in-out;*/
 }
 
 .icon-logo {
@@ -185,6 +196,21 @@ p {
 
 #titleExp {
   margin: 2rem 0rem;
+}
+
+#btnDownload {
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.4rem 1rem;
+  margin-right: 1rem;
+}
+
+#textDownload {
+  margin-right: 0.5rem;
 }
 
 .divideHr {
@@ -228,6 +254,10 @@ p {
   margin-right: 0.5rem;
 }
 
+.file-down-white {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   #about-me-personal .avatar {
     position: relative;
@@ -241,5 +271,8 @@ p {
   #boxInfo {
     margin-bottom: 1.5rem;
     width: 100%;
+  }
+  .positionJob {
+    text-align: left;
   }
 }

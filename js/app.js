@@ -10,6 +10,8 @@ const pathName = window.location.pathname;
 const body = document.querySelector("body");
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
+const fileDownBlack = document.querySelector(".file-down-black");
+const fileDownWhite = document.querySelector(".file-down-white");
 const ulExp = document.querySelector("#ulExp");
 const theme = document.querySelector("#theme");
 const boxExp = document.querySelector("#boxExp");
@@ -21,7 +23,9 @@ const ulSkills = document.querySelector("#ulSkills");
 const desc = document.querySelector("#setDescription");
 const position = document.querySelector("#setPosition");
 const titleSkill = document.querySelector("#titleSkill");
-const desProfile = document.querySelector("#about-me-profesional");
+const btnDownload = document.querySelector("#btnDownload");
+const desProfile = document.querySelector("#about-me-personal");
+const changeSettings = document.querySelector("#change-settings");
 
 const url =
   pathName == "/"
@@ -68,11 +72,15 @@ const setTheme = () => {
     wrapper.classList.add("wrapper-dark");
     light.style.display = "block";
     dark.style.display = "none";
+    fileDownBlack.style.display = "none";
+    fileDownWhite.style.display = "block";
   } else {
     body.classList.remove("dark-mode");
     wrapper.classList.remove("wrapper-dark");
     light.style.display = "none";
     dark.style.display = "block";
+    fileDownBlack.style.display = "block";
+    fileDownWhite.style.display = "none";
   }
 };
 theme.addEventListener("click", setTheme);
@@ -85,6 +93,7 @@ const createDynamicElement = (setElement) => {
   `${!setElement.source ? null : (element.src = setElement.source)}`;
 
   if (!setElement.position) {
+    // console.log(element);
     setElement?.render.append(element);
   } else {
     setElement?.render?.prepend(element);
@@ -174,7 +183,7 @@ const getExperience = (lang, experiences) => {
     });
 
     // toolsApply
-    exp.toolsApply.map((tool) => {
+    const lis = exp.toolsApply.map((tool) => {
       createDynamicElement({
         ele: "li",
         text: tool,
@@ -183,6 +192,8 @@ const getExperience = (lang, experiences) => {
         position: "append",
       });
     });
+
+    // console.log(lis);
 
     // Texto tecnologías
     createDynamicElement({
@@ -197,3 +208,32 @@ const getExperience = (lang, experiences) => {
     });
   });
 };
+
+const generatePDF = () => {
+  try {
+    html2PDF(wrapper, {
+      jsPDF: {
+        format: "a4",
+      },
+      imageType: "image/jpeg",
+      output: `./pdf/cv-${new Date().getFullYear()}.pdf`,
+    });
+  } catch (error) {
+    alert(error);
+  }
+};
+
+btnDownload.addEventListener("click", (e) => {
+  e.preventDefault();
+  changeSettings.style.display = "none";
+  desProfile.style.margin = "3rem 0rem 3rem";
+
+  setTimeout(() => {
+    generatePDF();
+
+    setTimeout(() => {
+      desProfile.style.margin = "6rem 0rem 3rem;";
+      changeSettings.style.display = "block";
+    }, timeout);
+  }, 2500);
+});
