@@ -276,6 +276,10 @@ p {
   margin: 1rem;
 }
 
+.dark-mode .linkedin-link {
+  color: white;
+}
+
 .linkedin-link {
   color: #191919;
   text-decoration: none;

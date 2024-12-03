@@ -2,7 +2,7 @@
   "es": {
     "titleTap": "Perfil profesional",
     "position": "Desarrollador Frontend Senior",
-    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en <strong>HTML5 CSS3 y JavaScript</strong>, con un profundo conocimiento de frameworks modernos como <strong>React, Angular y Vue.</strong> Apasionado por la creación de código limpio y mantenible, siguiendo los <strong>principios SOLID</strong> y las mejores prácticas de <strong>Clean Code.</strong> Dominio de TypeScript para una mayor tipado y escalabilidad.</p>",
+    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en <strong>HTML5 CSS3 y JavaScript</strong>, con un profundo conocimiento de frameworks modernos como <strong>React, Angular.</strong> Apasionado por la creación de código limpio y mantenible, siguiendo los <strong>principios SOLID</strong> y las mejores prácticas de <strong>Clean Code.</strong> Dominio de TypeScript para una mayor tipado y escalabilidad.</p>",
     "titleSkill": "Habilidades",
     "skills": [
       {
@@ -34,12 +34,12 @@
         "language": "Angular"
       },
       {
-        "icon": "./assets/vue-logo.svg",
-        "language": "Vuejs"
-      },
-      {
         "icon": "./assets/nodejs-logo.svg",
         "language": "NodeJs"
+      },
+      {
+        "icon": "./assets/mongodb-logo.svg",
+        "language": "MongoDB (Mongoose)"
       },
       {
         "icon": "./assets/express-logo.svg",
@@ -180,7 +180,7 @@
   "en": {
     "titleTap": "Persona profile",
     "position": "Senior Frontend Developer",
-    "description": "<p>I have a solid experience in building robust and scalable user interfaces. Expert in <strong>HTML5 CSS3 and JavaScript</strong>, with a deep knowledge of modern frameworks like <strong>React, Angular and Vue.</strong> Passionate about creating clean and maintainable code, following the <strong>SOLID principles</strong> and best practices of <strong>Clean Code.</strong> Mastery of TypeScript for better typing and scalability.</p>",
+    "description": "<p>I have a solid experience in building robust and scalable user interfaces. Expert in <strong>HTML5 CSS3 and JavaScript</strong>, with a deep knowledge of modern frameworks like <strong>React, Angular.</strong> Passionate about creating clean and maintainable code, following the <strong>SOLID principles</strong> and best practices of <strong>Clean Code.</strong> Mastery of TypeScript for better typing and scalability.</p>",
     "titleSkill": "Skills",
     "skills": [
       {
@@ -212,12 +212,12 @@
         "language": "Angular"
       },
       {
-        "icon": "./assets/vue-logo.svg",
-        "language": "Vuejs"
-      },
-      {
         "icon": "./assets/nodejs-logo.svg",
         "language": "NodeJs"
+      },
+      {
+        "icon": "./assets/mongodb-logo.svg",
+        "language": "MongoDB (Mongoose)"
       },
       {
         "icon": "./assets/express-logo.svg",
