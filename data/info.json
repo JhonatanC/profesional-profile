@@ -2,7 +2,7 @@
   "es": {
     "titleTap": "Perfil profesional",
     "position": "Desarrollador Frontend Senior",
-    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en <strong>HTML5 CSS3 y JavaScript</strong>, con un profundo conocimiento de frameworks modernos como <strong>React, Angular y Vue.</strong> Apasionado por la creación de código limpio y mantenible, siguiendo los <strong>principios SOLID</strong> y las mejores prácticas de <strong>Clean Code.</strong> Dominio de TypeScript para una mayor tipado y escalabilidad.</p> <p> Experiencia en el desarrollo backend con Node.js y Express, así como en la gestión de bases de datos relacionales (MySQL, PostgreSQL). Conocimientos sólidos en Docker para la conteneización de aplicaciones.</p><p>Busco nuevos desafíos en proyectos que requieran un alto nivel de personalización y rendimiento.</p>",
+    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en <strong>HTML5 CSS3 y JavaScript</strong>, con un profundo conocimiento de frameworks modernos como <strong>React, Angular y Vue.</strong> Apasionado por la creación de código limpio y mantenible, siguiendo los <strong>principios SOLID</strong> y las mejores prácticas de <strong>Clean Code.</strong> Dominio de TypeScript para una mayor tipado y escalabilidad.</p>",
     "titleSkill": "Habilidades",
     "skills": [
       {
@@ -30,10 +30,6 @@
         "language": "React"
       },
       {
-        "icon": "./assets/react-native-logo.svg",
-        "language": "React Native"
-      },
-      {
         "icon": "./assets/angular-logo.svg",
         "language": "Angular"
       },
@@ -50,10 +46,6 @@
         "language": "Express"
       },
       {
-        "icon": "./assets/next-logo.svg",
-        "language": "NextJs"
-      },
-      {
         "icon": "./assets/jest-logo.svg",
         "language": "Pruebas (Jest)"
       },
@@ -64,10 +56,6 @@
       {
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
-      },
-      {
-        "icon": "./assets/postgresql-logo.svg",
-        "language": "Postgres"
       },
       {
         "icon": "./assets/git-logo.svg",
@@ -192,7 +180,7 @@
   "en": {
     "titleTap": "Persona profile",
     "position": "Senior Frontend Developer",
-    "description": "<p>I have a solid experience in building robust and scalable user interfaces. Expert in <strong>HTML5 CSS3 and JavaScript</strong>, with a deep knowledge of modern frameworks like <strong>React, Angular and Vue.</strong> Passionate about creating clean and maintainable code, following the <strong>SOLID principles</strong> and best practices of <strong>Clean Code.</strong> Mastery of TypeScript for better typing and scalability.</p> <p> Experience in backend development with Node.js and Express, as well as in managing relational databases (MySQL, PostgreSQL). Solid knowledge in Docker for containerizing applications.</p><p>I am looking for new challenges in projects that require a high level of customization and performance.</p>",
+    "description": "<p>I have a solid experience in building robust and scalable user interfaces. Expert in <strong>HTML5 CSS3 and JavaScript</strong>, with a deep knowledge of modern frameworks like <strong>React, Angular and Vue.</strong> Passionate about creating clean and maintainable code, following the <strong>SOLID principles</strong> and best practices of <strong>Clean Code.</strong> Mastery of TypeScript for better typing and scalability.</p>",
     "titleSkill": "Skills",
     "skills": [
       {
@@ -220,10 +208,6 @@
         "language": "React"
       },
       {
-        "icon": "./assets/react-native-logo.svg",
-        "language": "React Native"
-      },
-      {
         "icon": "./assets/angular-logo.svg",
         "language": "Angular"
       },
@@ -240,10 +224,6 @@
         "language": "Express"
       },
       {
-        "icon": "./assets/next-logo.svg",
-        "language": "NextJs"
-      },
-      {
         "icon": "./assets/jest-logo.svg",
         "language": "Testing (Jest)"
       },
@@ -254,10 +234,6 @@
       {
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
-      },
-      {
-        "icon": "./assets/postgresql-logo.svg",
-        "language": "Postgres"
       },
       {
         "icon": "./assets/git-logo.svg",

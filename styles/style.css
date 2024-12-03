@@ -78,6 +78,7 @@ p {
 }
 
 #about-me-personal {
+  position: relative;
   margin: 5rem 0rem 3rem;
 }
 
@@ -210,6 +211,7 @@ p {
 }
 
 #textDownload {
+  font-size: 0.8rem;
   margin-right: 0.5rem;
 }
 
@@ -256,6 +258,42 @@ p {
 
 .file-down-white {
   display: none;
+}
+
+/*div {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}*/
+
+.page-break {
+  display: block;
+  clear: both;
+  page-break-after: always;
+  page-break-before: always;
+  margin: 1rem 0rem;
+}
+.container-doc {
+  margin: 1rem;
+}
+
+.linkedin-link {
+  color: #191919;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 7px;
+  position: absolute;
+  top: 80px;
+}
+
+.linkedin-link img {
+  width: 25px;
+  height: 25px;
+}
+
+.linkedin-link span {
+  top: 5px;
+  position: absolute;
+  left: 30px;
 }
 
 @media screen and (max-width: 768px) {

@@ -10,8 +10,8 @@ const pathName = window.location.pathname;
 const body = document.querySelector("body");
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
-const fileDownBlack = document.querySelector(".file-down-black");
-const fileDownWhite = document.querySelector(".file-down-white");
+//const fileDownBlack = document.querySelector(".file-down-black");
+//const fileDownWhite = document.querySelector(".file-down-white");
 const ulExp = document.querySelector("#ulExp");
 const theme = document.querySelector("#theme");
 const boxExp = document.querySelector("#boxExp");
@@ -23,9 +23,11 @@ const ulSkills = document.querySelector("#ulSkills");
 const desc = document.querySelector("#setDescription");
 const position = document.querySelector("#setPosition");
 const titleSkill = document.querySelector("#titleSkill");
-const btnDownload = document.querySelector("#btnDownload");
+// const btnDownload = document.querySelector("#btnDownload");
 const desProfile = document.querySelector("#about-me-personal");
 const changeSettings = document.querySelector("#change-settings");
+// const textDownload = document.querySelector("#textDownload");
+// textDownload.textContent = lang == "es" ? `Descargar` : `Download`;
 
 const url =
   pathName == "/"
@@ -46,6 +48,7 @@ const changeLang = (lang) => {
   const getLangValue = lang.target.value;
   ulSkills.innerHTML = "";
   boxExp.innerHTML = "";
+  // textDownload.textContent = getLangValue == "es" ? `Descargar` : `Download`;
   getJobInfo(getLangValue);
   return lang;
 };
@@ -72,15 +75,15 @@ const setTheme = () => {
     wrapper.classList.add("wrapper-dark");
     light.style.display = "block";
     dark.style.display = "none";
-    fileDownBlack.style.display = "none";
-    fileDownWhite.style.display = "block";
+    //fileDownBlack.style.display = "none";
+    //fileDownWhite.style.display = "block";
   } else {
     body.classList.remove("dark-mode");
     wrapper.classList.remove("wrapper-dark");
     light.style.display = "none";
     dark.style.display = "block";
-    fileDownBlack.style.display = "block";
-    fileDownWhite.style.display = "none";
+    //fileDownBlack.style.display = "block";
+    //fileDownWhite.style.display = "none";
   }
 };
 theme.addEventListener("click", setTheme);
@@ -93,7 +96,6 @@ const createDynamicElement = (setElement) => {
   `${!setElement.source ? null : (element.src = setElement.source)}`;
 
   if (!setElement.position) {
-    // console.log(element);
     setElement?.render.append(element);
   } else {
     setElement?.render?.prepend(element);
@@ -209,20 +211,46 @@ const getExperience = (lang, experiences) => {
   });
 };
 
+const calculateHeigthDocument = () => {
+  const doc = document.querySelector("html").offsetHeight;
+  const wrapperHeigth = wrapper.offsetHeight;
+  const wrapperHeigthClient = wrapper.clientHeight;
+
+  // console.log(doc);
+  // console.log(wrapperHeigth);
+  // console.log(wrapperHeigthClient);
+
+  const heigtDoc = window.innerHeight;
+  const heigtDocOut = window.outerHeight;
+  // console.log(heigtDoc);
+  // console.log(heigtDocOut);
+};
+calculateHeigthDocument();
+
 const generatePDF = () => {
-  try {
-    html2PDF(wrapper, {
-      jsPDF: {
-        format: "a4",
-      },
-      imageType: "image/jpeg",
-      output: `./pdf/cv-${new Date().getFullYear()}.pdf`,
-    });
-  } catch (error) {
-    alert(error);
-  }
+  const opt = {
+    margin: 2,
+    // margin: [3, 2, 2, 2], // [top, left, bottom, right],
+    output: `./pdf/cv-${new Date().getFullYear()}.pdf`,
+    image: { type: "jpeg", quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
+    pagebreak: {
+      mode: ["avoid-all", "css", "legacy"],
+      before: ".page-break",
+      after: ".page-break",
+    },
+    enableLinks: true,
+  };
+  const response = html2PDF(wrapper, opt);
+  response.catch((error) => {
+    alert("Al parecer hubo un error, intente más tarde.");
+    desProfile.style.margin = "6rem 0rem 3rem !important";
+    changeSettings.style.display = "block";
+  });
 };
 
+/*
 btnDownload.addEventListener("click", (e) => {
   e.preventDefault();
   changeSettings.style.display = "none";
@@ -230,10 +258,10 @@ btnDownload.addEventListener("click", (e) => {
 
   setTimeout(() => {
     generatePDF();
-
     setTimeout(() => {
-      desProfile.style.margin = "6rem 0rem 3rem;";
+      desProfile.style.margin = "6rem 0rem 3rem !important;";
       changeSettings.style.display = "block";
-    }, timeout);
-  }, 2500);
+    }, 2500);
+  }, 1500);
 });
+*/
