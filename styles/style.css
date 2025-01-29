@@ -301,6 +301,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  #wrapper {
+    padding: 1.6rem 0.5rem;
+  }
   #about-me-personal .avatar {
     position: relative;
     margin: 3rem auto auto;
@@ -311,6 +314,7 @@ p {
     padding: 0.3rem 1rem;
   }
   #boxInfo {
+    padding: 1rem 0rem;
     margin-bottom: 1.5rem;
     width: 100%;
   }
