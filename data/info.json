@@ -6,66 +6,82 @@
     "titleSkill": "Habilidades",
     "skills": [
       {
+        "order": 1,
         "icon": "./assets/usa-logo.svg",
         "language": "Inglés B1+"
       },
       {
+        "order": 2,
         "icon": "./assets/html-logo.svg",
         "language": "HTML"
       },
       {
+        "order": 3,
         "icon": "./assets/css-logo.svg",
         "language": "CSS"
       },
       {
+        "order": 4,
         "icon": "./assets/javascript-logo.svg",
         "language": "Javascript"
       },
       {
+        "order": 5,
         "icon": "./assets/typescript-logo.svg",
         "language": "Typescript"
       },
       {
+        "order": 6,
         "icon": "./assets/react-logo.svg",
         "language": "React"
       },
       {
+        "order": 7,
         "icon": "./assets/angular-logo.svg",
         "language": "Angular"
       },
       {
+        "order": 8,
         "icon": "./assets/nodejs-logo.svg",
         "language": "NodeJs"
       },
       {
+        "order": 9,
         "icon": "./assets/mongodb-logo.svg",
         "language": "MongoDB (Mongoose)"
       },
       {
+        "order": 10,
         "icon": "./assets/express-logo.svg",
         "language": "Express"
       },
       {
+        "order": 11,
         "icon": "./assets/jest-logo.svg",
         "language": "Pruebas (Jest)"
       },
       {
+        "order": 12,
         "icon": "./assets/logo-socket-io.svg",
         "language": "Socket io"
       },
       {
+        "order": 13,
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
       },
       {
+        "order": 14,
         "icon": "./assets/git-logo.svg",
         "language": "Git"
       },
       {
+        "order": 15,
         "icon": "./assets/github-logo.svg",
         "language": "Github"
       },
       {
+        "order": 16,
         "icon": "./assets/docker-logo.svg",
         "language": "Docker"
       }
@@ -136,9 +152,8 @@
           "JavaScript",
           "Git",
           "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic"
+          "Wordpress",
+          "Php"
         ]
       },
       {
@@ -152,10 +167,9 @@
           "Css",
           "JavaScript",
           "Git",
-          "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic"
+          "Gitlab",
+          "Wordpress",
+          "Php"
         ]
       },
       {
@@ -164,16 +178,7 @@
         "end_date": "Noviembre 2019",
         "position": "Desarrollador web",
         "descExp": "En Casinos Aladdin, construí una solución web completa y escalable, desde la estructura hasta la interfaz de usuario. Utilizando tecnologías como HTML5, CSS3, JavaScript, PHP y MySQL, desarrollé un tema de WordPress personalizado que permitiera una gestión flexible del contenido y una experiencia de usuario intuitiva.",
-        "toolsApply": [
-          "Html",
-          "Css",
-          "JavaScript",
-          "Git",
-          "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic"
-        ]
+        "toolsApply": ["Html", "Css", "JavaScript", "Wordpress", "Php", "MySQL"]
       }
     ]
   },
@@ -184,66 +189,82 @@
     "titleSkill": "Skills",
     "skills": [
       {
+        "order": 1,
         "icon": "./assets/usa-logo.svg",
-        "language": "English B1+"
+        "language": "Inglés B1+"
       },
       {
+        "order": 2,
         "icon": "./assets/html-logo.svg",
         "language": "HTML"
       },
       {
+        "order": 3,
         "icon": "./assets/css-logo.svg",
         "language": "CSS"
       },
       {
+        "order": 4,
         "icon": "./assets/javascript-logo.svg",
         "language": "Javascript"
       },
       {
+        "order": 5,
         "icon": "./assets/typescript-logo.svg",
         "language": "Typescript"
       },
       {
+        "order": 6,
         "icon": "./assets/react-logo.svg",
         "language": "React"
       },
       {
+        "order": 7,
         "icon": "./assets/angular-logo.svg",
         "language": "Angular"
       },
       {
+        "order": 8,
         "icon": "./assets/nodejs-logo.svg",
         "language": "NodeJs"
       },
       {
+        "order": 9,
         "icon": "./assets/mongodb-logo.svg",
         "language": "MongoDB (Mongoose)"
       },
       {
+        "order": 10,
         "icon": "./assets/express-logo.svg",
         "language": "Express"
       },
       {
+        "order": 11,
         "icon": "./assets/jest-logo.svg",
-        "language": "Testing (Jest)"
+        "language": "Pruebas (Jest)"
       },
       {
+        "order": 12,
         "icon": "./assets/logo-socket-io.svg",
         "language": "Socket io"
       },
       {
+        "order": 13,
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
       },
       {
+        "order": 14,
         "icon": "./assets/git-logo.svg",
         "language": "Git"
       },
       {
+        "order": 15,
         "icon": "./assets/github-logo.svg",
         "language": "Github"
       },
       {
+        "order": 16,
         "icon": "./assets/docker-logo.svg",
         "language": "Docker"
       }
@@ -296,10 +317,8 @@
           "JavaScript",
           "Git",
           "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic",
-          "Php (Laravel)"
+          "Wordpress",
+          "Php"
         ]
       },
       {
@@ -330,10 +349,9 @@
           "Css",
           "JavaScript",
           "Git",
-          "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic"
+          "Gitlab",
+          "Wordpress",
+          "Php"
         ]
       },
       {
@@ -342,16 +360,7 @@
         "end_date": "November 2019",
         "position": "Desarrollador web",
         "descExp": "At Casinos Aladdin, I built a comprehensive and scalable web solution, from the structure to the user interface. Utilizing technologies such as HTML5, CSS3, JavaScript, PHP, and MySQL, I developed a custom WordPress theme that enabled flexible content management and an intuitive user experience.",
-        "toolsApply": [
-          "Html",
-          "Css",
-          "JavaScript",
-          "Git",
-          "Github",
-          "TypeScript",
-          "Angular",
-          "Ionic"
-        ]
+        "toolsApply": ["Html", "Css", "JavaScript", "Wordpress", "Php", "MySQL"]
       }
     ]
   }
