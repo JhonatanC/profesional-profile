@@ -2,7 +2,7 @@
   "es": {
     "titleTap": "Perfil profesional",
     "position": "Desarrollador Frontend Senior",
-    "description": "<p>Cuento con una sólida experiencia en la construcción de interfaces de usuario robustas y escalables. Experto en <strong>HTML5 CSS3 y JavaScript</strong>, con un profundo conocimiento de frameworks modernos como <strong>React, Angular.</strong> Apasionado por la creación de código limpio y mantenible, siguiendo los <strong>principios SOLID</strong> y las mejores prácticas de <strong>Clean Code.</strong> Dominio de TypeScript para una mayor tipado y escalabilidad.</p>",
+    "description": "<p>Ingeniero de desarrollo con más de 10 años de experiencia, especializado en la creación de soluciones escalables y de fácil mantenimiento mediante la aplicación de arquitecturas y patrones de diseño robustos. Mi enfoque se centra en mejorar la legibilidad del código y la organización de proyectos para optimizar el ciclo de desarrollo.</p> <p>Poseo un sólido dominio de JavaScript y su ecosistema de frameworks y librerías. Adicionalmente, mi formación como diseñador multimedia me proporciona un fuerte conocimiento en UI/UX, lo que me permite crear interfaces más intuitivas y colaborar eficazmente con equipos de diseño. Mi nivel de inglés B1 me facilita la comprensión de documentación técnica y la comunicación en entornos internacionales.</p>",
     "titleSkill": "Habilidades",
     "skills": [
       {
@@ -61,11 +61,6 @@
         "language": "Pruebas (Jest)"
       },
       {
-        "order": 12,
-        "icon": "./assets/logo-socket-io.svg",
-        "language": "Socket io"
-      },
-      {
         "order": 13,
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
@@ -79,11 +74,6 @@
         "order": 15,
         "icon": "./assets/github-logo.svg",
         "language": "Github"
-      },
-      {
-        "order": 16,
-        "icon": "./assets/docker-logo.svg",
-        "language": "Docker"
       }
     ],
     "titleExp": "Experiencia laboral",
@@ -185,7 +175,7 @@
   "en": {
     "titleTap": "Persona profile",
     "position": "Senior Frontend Developer",
-    "description": "<p>I have a solid experience in building robust and scalable user interfaces. Expert in <strong>HTML5 CSS3 and JavaScript</strong>, with a deep knowledge of modern frameworks like <strong>React, Angular.</strong> Passionate about creating clean and maintainable code, following the <strong>SOLID principles</strong> and best practices of <strong>Clean Code.</strong> Mastery of TypeScript for better typing and scalability.</p>",
+    "description": "<p>Development Engineer with over 10 years of experience, specializing in creating scalable and easily maintainable solutions through the application of robust architectures and design patterns. My focus is on improving code readability and project organization to optimize the development lifecycle.</p> <p>I possess a strong command of JavaScript and its ecosystem of frameworks and libraries. Additionally, my background as a multimedia designer provides me with a solid understanding of UI/UX principles, enabling me to create more intuitive interfaces and collaborate effectively with design teams. My B1 level of English allows me to easily understand technical documentation and communicate in international environments.</p>",
     "titleSkill": "Skills",
     "skills": [
       {
@@ -244,11 +234,6 @@
         "language": "Pruebas (Jest)"
       },
       {
-        "order": 12,
-        "icon": "./assets/logo-socket-io.svg",
-        "language": "Socket io"
-      },
-      {
         "order": 13,
         "icon": "./assets/mysql-logo.svg",
         "language": "MySql"
@@ -262,11 +247,6 @@
         "order": 15,
         "icon": "./assets/github-logo.svg",
         "language": "Github"
-      },
-      {
-        "order": 16,
-        "icon": "./assets/docker-logo.svg",
-        "language": "Docker"
       }
     ],
     "titleExp": "Work Experience",
